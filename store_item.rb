@@ -4,3 +4,4 @@ item3 = { :item_type => "Case", :color => "Black", :price => 180 }
 
 puts "#{item1[:item_type]} costs #{item1[:price]} and is #{item1[:color]}."
 puts "#{item2[:item_type]} costs #{item2[:price]} and is #{item2[:color]}."
+puts "#{item3[:item_type]} costs #{item3[:price]} and is #{item3[:color]}."
