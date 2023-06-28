@@ -1,8 +1,8 @@
 class Item
-  def initialize(input_item_type, input_color, input_price)
-    @item_type = input_item_type
-    @color = input_color
-    @price = input_price
+  def initialize(input_options)
+    @item_type = input_options[:item_type]
+    @color = input_options[:color]
+    @price = input_options[:price]
   end
 
   attr_reader :item_type, :color, :price
@@ -10,11 +10,9 @@ class Item
   attr_writer :price
 end
 
-Item1 = Item.new("Graphics Card", "RGB", 1400)
-Item2 = Item.new("CPU", "nickel", 570)
-Item3 = Item.new("Case", "Black", 180)
-Item4 = Item.new("RAM", "RGB", 500)
-Item5 = Item.new("PSU", "Black", 280)
+Item1 = Item.new(item_type: "Graphics Card", color: "RGB", price: 1400)
+Item2 = Item.new(item_type: "CPU", color: "nickel", price: 570)
+Item3 = Item.new(item_type: "Case", color: "Black", price: 180)
 
 puts Item1.item_type
 puts Item1.color
