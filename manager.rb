@@ -36,13 +36,13 @@ class Manager < Employee
   end
 
   def give_annual_raise
-    @employees.each do
+    @employees.each do |salary|
       @salary = 1.05 * @salary
     end
   end
 
   def fire_all_employees
-    @employees.each do
+    @employees.each do |active|
       @active = false
     end
   end
