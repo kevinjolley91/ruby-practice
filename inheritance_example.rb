@@ -30,7 +30,9 @@ class Bike < Vehicle
 end
 
 Toyota = Car.new
+Toyota.accelerate
 Toyota.honk_horn
 
 Schwin = Bike.new
+Schwin.accelerate
 Schwin.ring_bell
