@@ -37,6 +37,7 @@ end
 Item1 = Item.new("Graphics Card", "RGB", 1400)
 Item2 = Item.new("CPU", "nickel", 570)
 Item3 = Item.new("Case", "Black", 180)
+Item4 = Item.new("RAM", "RGB", 500)
 
 p Item1.item_type
 p Item1.color
