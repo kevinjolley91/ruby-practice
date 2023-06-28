@@ -27,18 +27,6 @@ Item5 = Item.new("PSU", "Black", 280)
 puts Item1.item_type
 puts Item1.color
 puts Item1.price
-puts Item2.item_type
-puts Item2.color
-puts Item2.price
-puts Item3.item_type
-puts Item3.color
-puts Item3.price
-puts Item4.item_type
-puts Item4.color
-puts Item4.price
-puts Item5.item_type
-puts Item5.color
-puts Item5.price
 
 Item1.price = 1200
 puts Item1.price
