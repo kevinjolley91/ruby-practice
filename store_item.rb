@@ -16,26 +16,6 @@ class Item
   attr_reader :item_type, :color, :price
 
   attr_writer :price
-
-  # #reader method
-  # def item_type
-  #   @item_type
-  # end
-
-  # #reader method
-  # def color
-  #   @color
-  # end
-
-  # #reader method
-  # def price
-  #   @price
-  # end
-
-  # #setter method
-  # def price=(new_price)
-  #   @price = new_price
-  # end
 end
 
 Item1 = Item.new("Graphics Card", "RGB", 1400)
