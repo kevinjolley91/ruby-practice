@@ -42,6 +42,12 @@ Item4 = Item.new("RAM", "RGB", 500)
 puts Item1.item_type
 puts Item1.color
 puts Item1.price
+puts Item2.item_type
+puts Item2.color
+puts Item2.price
+puts Item3.item_type
+puts Item3.color
+puts Item3.price
 
 Item1.price = 1200
 puts Item1.price
