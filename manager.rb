@@ -35,15 +35,15 @@ class Manager < Employee
     puts "Email sent!"
   end
 
-  def give_annual_raises
+  def give_annual_raise
     @employees.each do
-      salary = 1.05 * salary
+      @salary = 1.05 * @salary
     end
   end
 
   def fire_all_employees
     @employees.each do
-      active = false
+      @active = false
     end
   end
 end
