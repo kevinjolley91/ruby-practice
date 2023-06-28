@@ -39,9 +39,9 @@ Item2 = Item.new("CPU", "nickel", 570)
 Item3 = Item.new("Case", "Black", 180)
 Item4 = Item.new("RAM", "RGB", 500)
 
-p Item1.item_type
-p Item1.color
-p Item1.price
+puts Item1.item_type
+puts Item1.color
+puts Item1.price
 
 Item1.price = 1200
-p Item1.price
+puts Item1.price
