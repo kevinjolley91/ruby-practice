@@ -42,6 +42,7 @@ Item1 = Item.new("Graphics Card", "RGB", 1400)
 Item2 = Item.new("CPU", "nickel", 570)
 Item3 = Item.new("Case", "Black", 180)
 Item4 = Item.new("RAM", "RGB", 500)
+Item5 = Item.new("PSU", "Black", 280)
 
 puts Item1.item_type
 puts Item1.color
@@ -52,6 +53,12 @@ puts Item2.price
 puts Item3.item_type
 puts Item3.color
 puts Item3.price
+puts Item4.item_type
+puts Item4.color
+puts Item4.price
+puts Item5.item_type
+puts Item5.color
+puts Item5.price
 
 Item1.price = 1200
 puts Item1.price
