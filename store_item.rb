@@ -1,6 +1,5 @@
 require "./module.rb"
 require "./item_class.rb"
-require "./complete_pc.rb"
 
 Item1 = Item.new(item_type: "Graphics Card", color: "RGB", price: 1400)
 Item2 = Item.new(item_type: "CPU", color: "nickel", price: 570)
